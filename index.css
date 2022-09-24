@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul > a {
+  margin: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgb(75, 75, 75);
+}
+
+ul > img {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.dot:hover {
+  box-shadow: 0px 0px 20px 5px rgb(190, 190, 190);
+}
+
+.profile:hover {
+  box-shadow: 0px 0px 3px 1px rgb(190, 190, 190);
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.first-sec  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 2px;
+  width: 40%;
+  padding: 10px 16px;
+  border-radius: 25px;
+  border: solid .5px rgb(207, 207, 207);
+ 
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+.google {
+  font-size: 6rem;
+  margin-bottom: 35px;
+}
+
+.second-sec {
+  margin-top: 30px;
+}
+
+.second-sec > button{
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: rgb(236, 236, 236);
+  border:  thin rgb(236, 236, 236);
+}
+
+.third-sec {
+  margin-top: 20px;
+}
+
+.third-sec > p > a {
+  padding: 5px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.flex-container > p{
+color: rgb(97, 97, 97);
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-footer > a {
+  padding: 0 20px;
+  color: rgb(97, 97, 97);
+}
+
+.right-footer > a {
+  padding: 0 20px;
+  color: rgb(97, 97, 97);
+
+}
+
+.Nigeria {
+  border-bottom: solid .5px rgb(207, 207, 207);
+  padding: 15px 0 15px 40px;
+  margin: 60px 0 20px 0;
+  color: rgb(97, 97, 97);
+}
